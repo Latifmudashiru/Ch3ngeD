@@ -4,6 +4,9 @@
 
 **An AI game-asset studio. Describe a change in plain English and it rebuilds the 3D character for you.**
 
+<img width="887" height="785" alt="image" src="https://github.com/user-attachments/assets/14c7a430-4666-44c3-8f0d-93ffa60bce96" />
+
+
 Claude plans the edit, a diffusion model paints the textures, and headless Blender does the 3D work.
 The result shows up in a live Three.js viewport.
 
