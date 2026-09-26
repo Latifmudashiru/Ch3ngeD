@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Worker cache (generated assets)
+.worker/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.cursor/
+
+# Claude Code local settings
+.claude/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# --- Third-party / proprietary 3D assets (not redistributable) ---
+# Riot Games models: bring your own, see public/models/lol/README.md
+*.glb
+*.gltf
+# Third-party Minecraft rigs: bring your own, see README "Rig setup"
+*.blend
+*.blend1
+Woodplank Rig v3.3/
+minecraft-player-rigged/
+
+# Local scratch / one-off debug scripts
+scratch/
+get_error.js
+get_error.mjs
+print_error.mjs
+test_mirror.mjs
+test_mirror.png
